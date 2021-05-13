@@ -11,7 +11,7 @@ import { Goal } from '../goal';
 
 export class GoalComponent implements OnInit {
   goals:Goal[]=[
-    new Goal(1, "watch finding Nemo", "Find an online version and watch merlin find his son",new Date(2020,3,14)),
+    new Goal(1, "Watch the Walking Dead", "Find an online version and watch merlin find his son",new Date(2020,3,14)),
     new Goal(2, "Buy some cookies", "I have to buy cookies for the parrot", new Date(2019,6,9)),
     new Goal(3, "Get new phone case", "Diana has her birthday coming up soon", new Date(2022,6,9)),
     new Goal(4, "Get dog food", "Pupper likes expensive sancks", new Date(2019,7,9)),
